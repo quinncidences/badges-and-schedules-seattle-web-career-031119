@@ -30,4 +30,5 @@ def printer(attendees)
   end
   room_assignments(attendees).each do |line|
     puts line
+  end
 end
