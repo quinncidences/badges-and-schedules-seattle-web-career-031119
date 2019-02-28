@@ -22,4 +22,3 @@ def assign_rooms(attendees)
   return conference_badges
   counter += 1
 end
-  
