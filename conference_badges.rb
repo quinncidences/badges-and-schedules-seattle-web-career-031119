@@ -28,5 +28,3 @@ def printer
   puts badges
   puts room_assignments
 end
-
-  
