@@ -21,5 +21,5 @@ def assign_rooms(attendees)
     room_assignments.push("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
-  return conference_badges
+  return room_assignments
 end
