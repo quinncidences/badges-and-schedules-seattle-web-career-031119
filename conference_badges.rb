@@ -13,3 +13,10 @@ def batch_badge_creator(attendees)
   end
   return badges
 end
+
+def assign_rooms(attendees)
+  rooms = []
+  counter = 1
+  rooms.each do |num|
+    conference_badges.push("Hello, #{name}! You'll be assigned to room #{number})
+  return conference_badges
