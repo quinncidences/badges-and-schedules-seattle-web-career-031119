@@ -14,11 +14,11 @@ def batch_badge_creator(attendees)
   return badges
 end
 
-def assign_rooms(attendees)
-  rooms = []
+def assign_rooms(room_assignments)
+  room_assignments = []
   counter = 1
-  rooms.each do |name|
-    rooms.push("Hello, #{name}! You'll be assigned to room #{number}")
+  attendees.each do |name|
+    room_assignments.push("Hello, #{name}! You'll be assigned to room #{number}")
     counter += 1
   end
   return conference_badges
