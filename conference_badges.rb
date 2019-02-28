@@ -18,7 +18,7 @@ def assign_rooms(room_assignments)
   room_assignments = []
   counter = 1
   attendees.each do |name|
-    room_assignments.push("Hello, #{name}! You'll be assigned to room #{number}!")
+    room_assignments.push("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
   return conference_badges
